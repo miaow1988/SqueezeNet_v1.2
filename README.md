@@ -12,4 +12,4 @@ In this way, we achieved 3% top-1 accuracy improvement on ImageNet based on Sque
 
 Implementation Details
 ======================
-The network was trained by MxNet. All hyper parameters are as same as hyper parameters used in origin SqueezeNet v1.1.
+The network was trained by MxNet. Image size is 224x224, and the pixel mean for preprocessing is mean_r=124, mean_g=117,         mean_b=104. All other hyper parameters are as same as hyper parameters used in original SqueezeNet v1.1.
